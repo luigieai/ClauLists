@@ -1,0 +1,17 @@
+{
+    "server": {
+        "port" : 8000
+    },
+    "db" : {
+        "type": "mysql",
+        "port": "3306",
+        "host" : "world01.mysql.dbaas.com.br",
+        "username": "world01",
+        "password": "itsasecret!@#4",
+        "database": "world01"
+    },
+    "jwt" : {
+        "expiresIn": 3600
+    }
+
+}
