@@ -1,6 +1,13 @@
 ## Description
+Backend de um sistema de listas feito em NestJS, para estudo. Com suporte a Docker.
 
-Depois irei fazer uma README decente. Segue abaixo somente os comandos de instalação e testes :)
+# Docker support
+Docker is now supported! To use it you need to manually build the image, first clone this repo, access the cloned folder, after that run:
+
+docker build -t claulist .
+And it's done! The image is built in your local docker repo. You can run using:
+
+docker run -d --name teste claulist
 
 ## Installation
 
